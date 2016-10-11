@@ -1,5 +1,7 @@
 'use strict';
 
-let BalancingSymbols = require('./algorithm/BalancingSymbols');
+let InfixToPostfix = require('./algorithm/InfixToPostfix');
 
-console.log(BalancingSymbols.isBalanced(''));
+let infixToPostfix = new InfixToPostfix();
+
+console.log(infixToPostfix.convert('A+B'));
